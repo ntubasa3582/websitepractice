@@ -7,7 +7,7 @@ function TitleImage() {
     return (
         <div>
             <img className={ImageStyle.backgroundImageStyle} src={Watermelon} alt="FlowerTown"/>
-            <h2 className={ImageTextStyle.TextStyle}>fafafa</h2>
+            <h2 className={ImageTextStyle.TextStyle}>スイカサイト</h2>
         </div>
     )
 }

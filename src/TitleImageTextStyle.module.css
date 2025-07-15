@@ -1,4 +1,3 @@
-
 .TextStyle {
     /*writing-mode: vertical-lr;*/
     position: absolute;
@@ -7,7 +6,6 @@
     transform: translate(-50%, 0%);
     display: flex;
     color : white;
-    font-size: 50px;
-    /*font-family: けいふぉんと;*/
+    font-size: 70px;
     white-space: nowrap;
 }

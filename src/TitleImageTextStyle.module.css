@@ -1,0 +1,13 @@
+
+.TextStyle {
+    /*writing-mode: vertical-lr;*/
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display: flex;
+    color : white;
+    font-size: 50px;
+    /*font-family: けいふぉんと;*/
+    white-space: nowrap;
+}

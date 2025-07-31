@@ -1,11 +1,13 @@
+
 .TextStyle {
     /*writing-mode: vertical-lr;*/
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, 0%);
     display: flex;
-    color : white;
+    color : black;
     font-size: 70px;
     white-space: nowrap;
+
 }

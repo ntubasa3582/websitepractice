@@ -1,8 +1,8 @@
-import WatermelonPicture1 from "./assets/Images/Watermelon1.jpg"
-import WatermelonPicture2 from "./assets/Images/Watermelon2.jpg"
-import WatermelonPicture3 from "./assets/Images/Watermelon3.jpg"
-import WatermelonPicture4 from "./assets/Images/Watermelon4.jpg"
-import WatermelonPicture5 from "./assets/Images/Watermelon5.jpg"
+import WatermelonPicture1 from "../public/Images/Watermelon1.jpg"
+import WatermelonPicture2 from "../public/Images/Watermelon2.jpg"
+import WatermelonPicture3 from "../public/Images/Watermelon3.jpg"
+import WatermelonPicture4 from "../public/Images/Watermelon4.jpg"
+import WatermelonPicture5 from "../public/Images/Watermelon5.jpg"
 import PictureStyle from "./PictureStyle.module.css"
 
 function WatermelonPictures() {

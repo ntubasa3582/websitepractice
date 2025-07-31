@@ -1,13 +1,14 @@
-import Watermelon from "./assets/Images/WatermelonBackGround.jpg";
+import Watermelon from "../public/Images/WatermelonBackGround.jpg";
 import ImageStyle from "./ImageStyle.module.css";
 import ImageTextStyle from "./TitleImageTextStyle.module.css";
-import Marquee from "react-fast-marquee";
 
 
 function TitleImage() {
     return (
         <div>
-            <img className={ImageStyle.backgroundImageStyle} src={Watermelon} alt="FlowerTown"/>
+            <video className={ImageStyle.backgroundImageStyle} autoPlay loop muted>
+                <source src={"douga.mp4"} type="video/mp4"/>
+            </video>
             <h2 className={ImageTextStyle.TextStyle}>スイカサイト</h2>
 
         </div>

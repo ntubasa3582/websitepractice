@@ -1,0 +1,31 @@
+/* アニメーションが0%の時は角度が0度で10%の時は角度が10度で・・・以下略 */
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.content5 {
+    /*writing-mode: vertical-lr;*/
+    /*テキストを縦にする*/
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color : black;
+    font-size: 50px;
+    animation-name: zoomIn;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate; /* アニメーションはどの方向で再生するんだい */
+}
+
+
+
+.TextStyle {
+
+}

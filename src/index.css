@@ -1,6 +1,10 @@
+@font-face {
+  font-family: 'KeiFont';
 
+}
 body {
   margin: 0;
   display: flex;
-  /*font-family: けいふぉんと;*/
+    font-family: けいふぉんと;
+
 }

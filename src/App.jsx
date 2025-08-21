@@ -1,4 +1,4 @@
-import TitleImage from "./TitleImage.jsx";
+import TitleImage from "./TopPage/TitleImage.jsx";
 import MainPages from "./MainPages.jsx";
 function App() {
 

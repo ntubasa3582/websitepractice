@@ -1,0 +1,17 @@
+/* 0の位置からy軸に200px動くことが書かれてる */
+@keyframes moveDown {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(200px);
+    }
+}
+
+.content3 {
+    animation-name: moveDown; /* moveDownって名前のkeyframes使うよ */
+    animation-duration: 1s; /* 0から100にいくまでの時間は1秒だよ */
+    animation-timing-function: ease-in; /* 0から100までどんな感じに動かしたいんだい */
+    animation-iteration-count: infinite; /* アニメーションは繰り返すのかい */
+    animation-fill-mode: forwards; /* アニメーションが始まる前と終わった後の状態はどうすんだい */
+}
